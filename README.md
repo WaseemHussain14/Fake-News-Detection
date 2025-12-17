@@ -25,6 +25,7 @@ at the project root.
 
 ## Project Structure
 
+```text
 Fake-News-Detection/
 │
 ├── data/                # Dataset files (ignored by git)
@@ -32,3 +33,4 @@ Fake-News-Detection/
 │   └── 01_data_preprocessing.ipynb
 ├── README.md
 ├── .gitignore
+```
