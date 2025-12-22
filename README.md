@@ -31,6 +31,7 @@ Fake-News-Detection/
 ├── data/                # Dataset files (ignored by git)
 ├── notebooks/           # Jupyter notebooks
 │   └── 01_data_preprocessing.ipynb
+│   └── 02_tfidf_vectorization.ipynb
 ├── README.md
 ├── .gitignore
 ```
