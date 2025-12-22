@@ -37,3 +37,23 @@ Fake-News-Detection/
 ├── README.md
 ├── .gitignore
 ```
+## Model Training and Results
+
+Multiple machine learning models were trained and evaluated using TF-IDF feature representations to identify the most effective classifier for fake news detection.
+
+### Models Evaluated
+- Logistic Regression
+- Naive Bayes (Multinomial)
+
+### Performance Summary
+
+| Model | Accuracy | F1-Score |
+|------|----------|----------|
+| Logistic Regression | ~98% | ~0.98 |
+| Naive Bayes | ~93% | ~0.93 |
+
+### Final Model Selection
+
+Logistic Regression was selected as the final model due to its superior performance across precision, recall, and F1-score metrics.
+
+Compared to Naive Bayes, it demonstrated stronger generalization and more consistent predictions across both classes, making it more suitable for deployment.
