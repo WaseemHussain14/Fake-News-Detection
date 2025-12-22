@@ -29,9 +29,11 @@ at the project root.
 Fake-News-Detection/
 │
 ├── data/                # Dataset files (ignored by git)
+├── artifacts/           # Saved models and vectorizers (ignored by git)
 ├── notebooks/           # Jupyter notebooks
-│   └── 01_data_preprocessing.ipynb
-│   └── 02_tfidf_vectorization.ipynb
+│   ├── 01datapreprocessing.ipynb
+│   ├── 02_tfidf_vectorization.ipynb
+│   └── 03_model_training.ipynb
 ├── README.md
 ├── .gitignore
 ```
